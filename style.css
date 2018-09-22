@@ -1,0 +1,269 @@
+/* base css */
+ul{
+	
+	list-style:none;
+	
+}	
+	
+	
+a{
+	text-decoration:none;
+	
+}
+a:hover{
+	text-decoration:none;
+	
+}
+/* body{ */
+	font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	
+	font-family: 'Open Sans', sans-serif;
+}
+.single-service .caption,.single-service i,.single-service h3{
+	transition:.5s;
+	
+}
+
+/********
+ main css 
+*/
+
+
+/* ******
+header css 
+*********/
+
+.header {
+  background: none repeat scroll 0 0 rgba(255, 255, 255, 0.9);
+  position: fixed;
+  width: 100%;
+  z-index:9;
+}
+
+.logo-area  a {
+  color: #000;
+ font-family: 'Lavanderia-Regular';
+  font-size: 41px;
+  text-decoration:none;
+  line-height:89px;
+  
+ 
+}
+.logo-area  a span{
+  color: #b73958;
+
+}
+
+.nav-area {
+    padding: 26px 0;
+}
+.nav-area ul {
+  text-align: right;
+}
+.nav-area ul li {
+  display: inline-block;
+}
+.nav-area ul li a {
+  display: block;
+  font-size:17px;
+  color:#454545;
+  font-family:'Segoe UI';
+  padding:0 17px;
+  line-height:27px;
+  
+}
+.nav-area ul li a:hover,.nav-area ul li:last-child {
+	background:#de6d6e;
+	color:#fff;
+	border-radius:3px;
+}
+
+
+.nav-area ul li:last-child a i{
+	margin-left:7px;
+	
+}
+
+
+/* slider-bg css */
+
+.slider-bg{
+	
+	text-align:center;
+	padding-top:367px;
+	padding-bottom:69px;
+	background-size:cover;
+}
+.slider-bg h2{
+	font-size:69px ;
+	color:#ddd;
+	 font-family: 'AlteHaasGrotesk_Bold';
+	
+}
+.slider-bg p{
+	font-size:25px ;
+	color:#ddd;
+	
+}
+     /* service-area css */
+	 .service-area{
+		padding-bottom:52px;
+		box-shadow:0px 1px 3px rgba(0,0,0,0.11);	
+		 
+	 }
+	 
+.section-heading{
+	text-align:center;	 
+	padding:0 45px;	 
+	padding-top:70px;
+}
+
+.section-heading h2 {
+  color: #404040;
+  font-family: "Open Sans",sans-serif;
+  font-size: 35px;
+  margin-top: 0;
+}
+.section-heading p{
+	font-size:17px;
+	color:#636363;
+	margin-bottom:70px;
+	
+}
+
+.single-service {
+  text-align: center;
+  margin:0 auto;
+  width:180px;
+  height:180px;
+  border-radius:50%;
+  position:relative;
+  
+}
+.single-service h3 {
+  color: #fff;
+  font-size: 17px;
+  margin-top: 10px;
+}
+.single-service .caption {
+  height: 100%;
+  left: 0;
+  padding: 33px  22px 0px 22px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  opacity:0;
+  
+}
+.single-service .caption p {
+  color: #fff;
+  font-size: 11px;
+  line-height: 13px;
+}
+.single-service i {
+  color: #fff;
+  font-size: 80px;
+  margin-bottom: -5px;
+  margin-top: 40px;
+}
+
+
+
+.all-services .col-md-3:nth-child(1) .single-service {
+  background:#4eb9f4;
+}
+.all-services .col-md-3:nth-child(2) .single-service {
+  background:#6fe125;
+}
+.all-services .col-md-3:nth-child(3) .single-service {
+  background: #ff5649;
+}
+.all-services .col-md-3:nth-child(4) .single-service {
+  background: #e48f23;
+}
+.single-service:hover .caption{
+	
+	opacity:1;
+}
+.single-service:hover i,.single-service:hover h3{
+	
+	opacity:0.26;
+}
+.single-service:hover .caption{
+	
+}
+/* blog-area css */
+
+.blog-area{
+padding-top:45px	
+	
+}
+.single-blog-post{
+	padding-bottom:79px;
+	padding-left:50px;
+	
+}
+
+.single-blog-post .row >div:first-child{
+	
+	text-align:right
+}
+
+.single-blog-post h4{
+	font-size:27px;
+	color:#404040;
+	margin-top:0px;
+	margin-bottom:17px
+	
+}
+.single-blog-post P{
+	font-size:15px;
+	color:#8b8b8b;
+	line-height:22px;
+	margin-bottom:0px;
+}
+/* **********88
+footer-area css
+************* */
+
+.footer{
+	
+	background:#281E1E;
+}
+.footer-wed h2{
+	font-size:21px;
+	color:#aeaeae
+	
+}
+
+.social-logo {
+  text-align: right;
+}
+.social-logo > li {
+  display: inline-block;
+  margin-left: 22px;
+
+}
+.social-logo li a {
+  background: none repeat scroll 0 0 #696b6a;
+  border-radius: 50%;
+  color: #252825;
+  display: block;
+  height: 52px;
+  line-height: 52px;
+  text-align: center;
+  width: 52px;
+  font-size:30px;
+}
+.copyright-txt > p {
+  color: #8b8b8b;
+  text-align: right;
+  padding-top:15px;
+  
+}
+.copyright-txt {
+  padding-top: 70px;
+}
